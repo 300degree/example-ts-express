@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.15",
+    "express": "^4.18.2",
+    "ts-node-dev": "^2.0.0"
+  },
+  "name": "example-ts-express",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/300degree/example-ts-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/300degree/example-ts-express/issues"
+  },
+  "homepage": "https://github.com/300degree/example-ts-express#readme"
+}
