@@ -8,12 +8,13 @@ export default class Server {
 
     constructor(port: number) {
         this.app = Express();
-        this.port = port
+        this.port = port;
+        this.loadRoutes();
     }
 
     private loadRoutes():void {
         this.app.get('/', (req: Express.Request, res: Express.Response, next: Express.NextFunction) => {
-            res.send('index');
+            res.send()
         })
     }
 
