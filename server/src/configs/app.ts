@@ -15,6 +15,9 @@ export default class Server {
         this.app.get('/', (req: Express.Request, res: Express.Response, next: Express.NextFunction) => {
             res.send()
         })
+        this.app.post('/', (req: Express.Request, res: Express.Response, next: Express.NextFunction) => {
+            res.json('hello world')
+        })
 
         this.app.get('/test', (req: Express.Request, res: Express.Response, next: Express.NextFunction) => {
             res.send('test')

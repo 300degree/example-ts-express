@@ -1,9 +1,9 @@
 
 export default class Network {
-    public port: number;
+    public port: number = 8080;
 
-    constructor(port: number) {
-        this.port = port;
+    constructor() {
+        this.port;
     }
 
     public run():void {
