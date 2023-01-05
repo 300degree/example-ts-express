@@ -1,5 +1,4 @@
 import Express from 'express';
-// import Routes from '../routes';
 
 export default class Server {
 
@@ -11,10 +10,14 @@ export default class Server {
         this.port = port;
         this.loadRoutes();
     }
-
+    
     private loadRoutes():void {
         this.app.get('/', (req: Express.Request, res: Express.Response, next: Express.NextFunction) => {
             res.send()
+        })
+
+        this.app.get('/test', (req: Express.Request, res: Express.Response, next: Express.NextFunction) => {
+            res.send('test')
         })
     }
 
